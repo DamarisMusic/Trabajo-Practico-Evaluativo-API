@@ -1,3 +1,5 @@
+let key = 'https://api.nasa.gov/planetary/apod?'
+
 let imagenFecha = document.querySelector('#imagenFecha')
 let botonFecha = document.querySelector('#botonFecha')
 let fechaUsuario =document.querySelector('#fecha')
@@ -22,7 +24,7 @@ botonCantidad.onclick = function (){
     .then(fotos => {
         contenedorImagen.innerHTML = ''
         for(let i = 0; i < fotos.length; i++){
-            contenedorImagen.innerHTML = `${contenedorImagen.innerHTML} <img src='${fotos[i].url}' alt='${fotos[i].title}'>`
+            contenedorImagen.innerHTML = contenedorImagen.innerHTML + `${contenedorImagen.innerHTML} <img src='${fotos[i].url}' alt='${fotos[i].title}'>`
         }
     }
  )

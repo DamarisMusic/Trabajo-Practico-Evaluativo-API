@@ -1,0 +1,26 @@
+body {
+  font-family: 'calibri';
+  background: linear-gradient(135deg, #0b0c10, #1f2833);
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding-top: 50px;
+  overflow-y: auto; 
+}
+
+#titulo{
+    font-size: 50px;
+    color: #45a29e;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #45a29e;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}

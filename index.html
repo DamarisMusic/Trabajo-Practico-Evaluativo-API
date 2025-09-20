@@ -8,8 +8,8 @@
 </head>
 <body>
   <header>
+    <img src="nasa.png" width="100" />
       <div class="menu">
-        <div style="text-align: left;"><img src="nasa.png" width="100" /></div>
           <nav>
               <ul>
                   <li><a href="#">Inicio</a></li>
@@ -20,6 +20,13 @@
       </div>
   </header>
 
+  <div class="Intro">
+    <h1 id="tituloPrincipal">NASA Web</h1>
+    <p>Este sitio es una página web destinada a brindar algunos recursos visuales sobre la galaxia. Está creado en base a una api que permite realizar 3 cosas: en primer lugar elegir una fecha (cualquiera) y al apretar el botón mostrar se les brindará una foto que la página de la nasa subió el día de la fecha elegida. En segundo lugar permite elegir una cantidad de fotos (en número) aleatorias que se revelarán al apretar el botón mostrar. En tercer y último lugar el botón ... se abrirá otra página mostrando una sola foto aleatoria de la nasa.</p>
+  </div>
+
+  <p>A continuación tienes la opción de elegir una fecha y seleccionar "mostrar". Te sorprenderá la imágen!</p>
+
    <div class="caja">
     <h1 id="titulo">Elegir fecha</h1>
     <img id="imagenFecha" src="" alt="imagen del día">
@@ -29,9 +36,11 @@
     </div>
    </div>
 
+  <p>Aquí puedes ingresar un número y al seleccionar "mostrar" verás esa cantidad de imágenes aleatorias que ingresaste.</p>
+
    <div class="caja">
     <h1 id="titulo">Elegir cantidad de fotos</h1>
-    <div class="contenedor imagen">
+    <div class="contenedor-imagen">
         <img id="" src="" alt="Imagen del dia">
     </div>
 
@@ -42,6 +51,10 @@
 
    </div>
     
+   <div class="botonPagina2">
+    <a href="index2.html"><button>Ir a otra página</button></a>
+</div>
+
 </body>
 <script src="apiaApod.js"></script>
 </html>
