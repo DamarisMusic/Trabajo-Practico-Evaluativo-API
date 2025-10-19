@@ -13,13 +13,31 @@
           <div class="menu">
               <nav>
                   <ul>
-                      <li><a href="#">Inicio</a></li>
+                      <li><a href='#'>Inicio</a></li>
                       <li><a href="#">Imágenes</a></li>
-                      <li><a href="#">Más Información</a></li>
+                      <li><a href="https://www.thecocktaildb.com/api.php">Más Información</a></li>
                   </ul>
               </nav>
           </div>
       </header>
+
+     <div class="contenedor">
+        <h1>Cócteles Margarita</h1>
+        
+        <!-- Botones de control -->
+        <div class="botones">
+            <button id="botonUnCoctel" onclick="cargarUnCoctel()">Cargar Un Cóctel</button>
+            <button id="botonFotoRandom" onclick="cargarFotoAleatoria()">Cargar Foto Aleatoria</button>
+            <button id="botonTodos" onclick="cargarTodosLosCocteles()">Cargar Todos los Cocteles</button>
+        </div>
+
+        <!-- Área donde se muestra la información -->
+        <div id="areaCocteles">
+            <p>Presiona un botón para ver los cócteles</p>
+        </div>
+    </div>
+
+
 </body>
 <script src="TpApiCoctel.js"></script>
 </html>

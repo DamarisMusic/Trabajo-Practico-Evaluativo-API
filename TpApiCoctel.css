@@ -37,3 +37,153 @@ header {
     height: auto;
     border-radius: 15%;
   }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+.contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 50px;
+    padding-top: 5%;
+}
+
+/* Botones */
+.botones {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#botonFotoRandom {
+    background-color: #008CBA;
+}
+
+#botonFotoRandom:hover {
+    background-color: #007B9A;
+}
+
+#botonTodos {
+    background-color: #f44336;
+}
+
+#botonTodos:hover {
+    background-color: #da190b;
+}
+
+/* Área de cócteles */
+#areaCocteles {
+    min-height: 200px;
+    padding: 20px;
+    border: 2px dashed #ddd;
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+
+/* Tarjeta de cóctel */
+.tarjeta-coctel {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nombre-coctel {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.foto-coctel {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.info-basica {
+    background-color: #e8f5e8;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.ingredientes {
+    background-color: #fff3cd;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.instrucciones {
+    background-color: #d1ecf1;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.titulo-seccion {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.lista-ingredientes {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista-ingredientes li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.medida {
+    font-weight: bold;
+    color: #666;
+}
+
+/* Solo foto */
+.solo-foto {
+    text-align: center;
+    padding: 20px;
+}
+
+.solo-foto img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
